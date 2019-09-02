@@ -35,8 +35,8 @@ import java.util.Optional;
 import java.util.function.Consumer;
 import java.util.stream.Collectors;
 
-import static graphql.schema.idl.SchemaTypeChecker.checkDeprecatedDirective;
-import static graphql.schema.idl.SchemaTypeChecker.checkNamedUniqueness;
+import static graphql.schema.idl.SchemaValidityChecker.checkDeprecatedDirective;
+import static graphql.schema.idl.SchemaValidityChecker.checkNamedUniqueness;
 import static graphql.util.FpKit.mergeFirst;
 
 /**
